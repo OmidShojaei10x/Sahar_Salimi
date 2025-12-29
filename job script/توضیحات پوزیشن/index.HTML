@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Description Package - Head of Partnerships | Yektanet</title>
+    <style>
+        /* Sahel Font Face Declarations */
+        @font-face {
+            font-family: 'Sahel';
+            src: url('../fonts/Sahel.eot');
+            src: url('../fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+                 url('../fonts/Sahel.woff') format('woff'),
+                 url('../fonts/Sahel.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Sahel';
+            src: url('../fonts/Sahel-Bold.eot');
+            src: url('../fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+                 url('../fonts/Sahel-Bold.woff') format('woff'),
+                 url('../fonts/Sahel-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Sahel';
+            src: url('../fonts/Sahel-Black.eot');
+            src: url('../fonts/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+                 url('../fonts/Sahel-Black.woff') format('woff'),
+                 url('../fonts/Sahel-Black.ttf') format('truetype');
+            font-weight: 900;
+            font-style: normal;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Sahel', sans-serif;
+            background: linear-gradient(135deg, #fed813 0%, #f3c42e 100%);
+            padding: 20px;
+            line-height: 1.8;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #fed813 0%, #f3c42e 100%);
+            color: #323232;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header-logo {
+            max-height: 60px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        /* Navigation */
+        .nav {
+            background: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            border-bottom: 3px solid #f3c42e;
+        }
+        
+        .nav-btn {
+            padding: 12px 25px;
+            background: white;
+            border: 2px solid #f3c42e;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Sahel', sans-serif;
+            font-size: 0.95em;
+            font-weight: 500;
+            color: #323232;
+        }
+        
+        .nav-btn:hover {
+            background: #f3c42e;
+            color: #323232;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(243, 196, 46, 0.3);
+        }
+        
+        /* Content */
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+            scroll-margin-top: 20px;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #f3c42e;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #323232;
+            font-weight: 700;
+        }
+        
+        .copy-btn {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #fed813 0%, #f3c42e 100%);
+            color: #323232;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Sahel', sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(243, 196, 46, 0.4);
+        }
+        
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+        
+        .copy-btn.copied {
+            background: linear-gradient(135deg, #2fbea8 0%, #3de19c 100%);
+            color: white;
+        }
+        
+        .section-content {
+            background: #f2f2f2;
+            padding: 30px;
+            border-radius: 15px;
+            border-right: 5px solid #f3c42e;
+            font-size: 0.95em;
+            line-height: 1.9;
+        }
+        
+        .section-content strong {
+            font-weight: bold;
+            color: #323232;
+        }
+        
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            background: #f3c42e;
+            color: #323232;
+            border-radius: 15px;
+            font-size: 0.75em;
+            margin-right: 10px;
+            font-weight: 500;
+        }
+        
+        .badge.linkedin {
+            background: #0077b5;
+            color: white;
+        }
+        
+        .badge.internal {
+            background: #2fbea8;
+            color: white;
+        }
+        
+        .badge.executive {
+            background: #fed813;
+            color: #323232;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #323232;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        .footer a {
+            color: #f3c42e;
+            text-decoration: none;
+        }
+        
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #2fbea8;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 1000;
+            font-weight: 500;
+        }
+        
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .section-header {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .section-content {
+                padding: 20px;
+                font-size: 0.9em;
+            }
+        }
+        
+        /* Icon */
+        .icon {
+            width: 18px;
+            height: 18px;
+        }
+        
+        /* Intro Box */
+        .intro-box {
+            background: #f2f2f2;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            border-right: 5px solid #f3c42e;
+        }
+        
+        .intro-box h2 {
+            color: #323232;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .intro-box p {
+            color: #323232;
+            margin-bottom: 10px;
+        }
+        
+        .intro-box ul {
+            margin-right: 25px;
+            color: #323232;
+        }
+        
+        .intro-box ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="../logo/Asset 7.svg" alt="Yektanet Logo" class="header-logo">
+            <h1>📋 Job Description Package</h1>
+            <p>Head of Partnerships | Yektanet</p>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="nav">
+            <button class="nav-btn" onclick="scrollToSection('intro')">📌 راهنما</button>
+            <button class="nav-btn" onclick="scrollToSection('linkedin')">💼 نسخه LinkedIn</button>
+            <button class="nav-btn" onclick="scrollToSection('internal')">🏢 نسخه داخلی</button>
+            <button class="nav-btn" onclick="scrollToSection('executive')">⭐ نسخه Executive</button>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            
+            <!-- Intro Section -->
+            <div id="intro" class="intro-box">
+                <h2>📌 راهنمای استفاده</h2>
+                <p><strong>این بسته شامل 3 نسخه مختلف Job Description است:</strong></p>
+                <ul>
+                    <li><strong>نسخه LinkedIn:</strong> برای انتشار عمومی در شبکه‌های اجتماعی (لحن جذاب و انگیزشی)</li>
+                    <li><strong>نسخه داخلی:</strong> برای انتشار در گروه‌های شرکت (لحن صمیمی و شفاف)</li>
+                    <li><strong>نسخه Executive:</strong> برای ارسال مستقیم به کاندیدهای سینیور (لحن حرفه‌ای و فشرده)</li>
+                </ul>
+                <p style="margin-top: 20px;"><strong>🎯 نحوه استفاده:</strong></p>
+                <ul>
+                    <li>روی دکمه "کپی محتوا" کلیک کنید تا متن کامل کپی شود</li>
+                    <li>متن را در پلتفرم مورد نظر Paste کنید</li>
+                    <li>ایمیل، تاریخ و لینک‌های مورد نیاز را جایگزین کنید</li>
+                    <li>در صورت نیاز، ویرایش‌های جزئی انجام دهید</li>
+                </ul>
+            </div>
+            
+            <!-- Section 1: LinkedIn Version -->
+            <div id="linkedin" class="section">
+                <div class="section-header">
+                    <div>
+                        <span class="badge linkedin">LinkedIn</span>
+                        <span class="section-title">نسخه LinkedIn (انتشار عمومی)</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyContent('linkedin-content')">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                        کپی محتوا
+                    </button>
+                </div>
+                <div class="section-content" id="linkedin-content">🚀 استخدام فوری: سرپرست تیم پارتنرشیپ | یکتانت
+
+**یکتانت** — یکی از پیشروترین پلتفرم‌های تبلیغات دیجیتال ایران با بیش از **400 نفر** تیم حرفه‌ای — به دنبال یک **رهبر با تجربه** برای هدایت و توسعه تیم پارتنرشیپ است.
+
+───────────────────────
+
+🎯 **این نقش برای چه کسی است؟**
+
+اگر شما:
+✔️ تجربه **مدیریت همزمان 20+ پارتنر B2B** را دارید
+✔️ در مذاکره و بستن **dealهای کلان تهاتری** مهارت دارید
+✔️ به **تبلیغات دیجیتال** تسلط عملی دارید
+✔️ می‌خواهید در یکی از **حساس‌ترین و تأثیرگذارترین** نقش‌های سازمان، نقشی کلیدی ایفا کنید
+
+**این فرصت برای شماست.**
+
+───────────────────────
+
+💼 **چه کاری انجام خواهید داد؟**
+
+• مدیریت و توسعه پورتفولیوی **70+ میلیارد تومان** تهاتر سالانه
+• حفظ و رشد روابط با پارتنرهای B2B در صنایع متنوع (FMCG، تکنولوژی، خدمات، فین‌تک، پوشاک، غذایی و...)
+• **تأمین نیازهای عملیاتی و استراتژیک شرکت** از طریق تهاتر (کاهش هزینه‌های نقدی)
+• **رهبری و مشاوره تبلیغاتی** به پارتنرها برای اطمینان از موفقیت همکاری
+• هدایت تیم Account Management و ارتقای عملکرد آن‌ها
+• طراحی، مذاکره و مدیریت قراردادهای تهاتری
+
+───────────────────────
+
+🧩 **چه تجربه‌ای باید داشته باشید؟**
+
+**الزامی:**
+• حداقل **5 سال تجربه** در Partnerships / Strategic Accounts / Key Account Management
+• سابقه مدیریت **پورتفولیوی بزرگ پارتنرها** (20+ حساب فعال)
+• مهارت قوی در **مذاکره و بستن dealهای پیچیده**
+• آشنایی عملیاتی با **تبلیغات دیجیتال** (CPC, CPM, CTR, ROAS)
+• توانایی **Relationship Building** و حفظ روابط بلندمدت
+• ذهنیت سیستماتیک و توانایی کار با CRM
+
+**مزیت:**
+• تجربه مستقیم در **تهاتر** (کالا یا خدمت)
+• سابقه کار در آژانس‌های تبلیغاتی یا شرکت‌های مارکتینگ محور
+• تجربه **مدیریت تیم** Partnerships یا Account
+
+───────────────────────
+
+🌟 **چرا یکتانت؟**
+
+یکتانت از سال 1395 با **5 نفر جسور** شروع شد و امروز به یک **اکوسیستم دیجیتال مارکتینگ** با چندین زیرمجموعه (جریان، یک لینک، نجوا، ادیوری) تبدیل شده است.
+
+ما تلاش می‌کنیم محیطی امن برای شکوفایی استعدادها فراهم کنیم؛ جایی که:
+🎯 **دیده شوید، شنیده شوید و روزبه‌روز رشد کنید**
+💡 در پروژه‌های **کلان و تأثیرگذار** نقش مستقیم داشته باشید
+🤝 با **بزرگ‌ترین برندهای ایران** همکاری کنید
+🚀 در یک تیم **پرانرژی و حرفه‌ای** رشد کنید
+
+───────────────────────
+
+📍 **جزئیات همکاری:**
+
+📌 **موقعیت:** تهران
+🏢 **مدل کاری:** حضوری (On-site) با ساعت کاری منعطف
+⏱ **زمان استخدام:** فوری
+🗣 **زبان:** انگلیسی در سطح Intermediate
+📊 **گزارش‌دهی:** به CHRO
+
+───────────────────────
+
+📩 **نحوه درخواست:**
+
+اگر آماده‌اید تا یکی از **کلیدی‌ترین نقش‌های استراتژیک یکتانت** را بر عهده بگیرید:
+
+👉 رزومه خود را به همراه یک پاراگراف کوتاه درباره **موفق‌ترین deal تهاتری/پارتنرشیپی** که مدیریت کرده‌اید، به ایمیل زیر ارسال کنید:
+
+📧 **[ایمیل HR را اینجا قرار دهید]**
+📌 موضوع: Head of Partnerships
+
+───────────────────────
+
+#یکتانت #استخدام #Partnerships #B2B #دیجیتال_مارکتینگ #فرصت_شغلی</div>
+            </div>
+            
+            <!-- Section 2: Internal Version -->
+            <div id="internal" class="section">
+                <div class="section-header">
+                    <div>
+                        <span class="badge internal">داخلی</span>
+                        <span class="section-title">نسخه داخلی (گروه شرکت)</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyContent('internal-content')">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                        کپی محتوا
+                    </button>
+                </div>
+                <div class="section-content" id="internal-content">🎯 فرصت شغلی داخلی | سرپرست تیم پارتنرشیپ
+
+بچه ها سلام
+امیدوارم خوب باشید 
+
+یک فرصت برای کسانی که به دنبال چالش جدید و رشد حرفه‌ای هستند:
+
+با توجه به تغییرات در ساختار تیم پارتنرشیپ منابع انسانی، به دنبال یک مدیر مجرب هستیم که مسئولیت هدایت این تیم کلیدی را بر عهده بگیره.
+
+این یک موقعیت جایگزینی است و فرد جدید فرصت خواهد داشت تا با حمایت و انتقال دانش از مدیر فعلی، این نقش استراتژیک را تحویل بگیره..
+
+───────────────────────
+
+🔍 **این نقش چیست؟**
+
+سرپرست تیم پارتنرشیپ مسئولیت **مدیریت، حفظ و توسعه** بیش از **20 پارتنر B2B فعال** و پورتفولیوی **بیش از 70 میلیارد تومان تهاتر سالانه** را بر عهده داره.
+
+این نقش یکی از **حساس‌ترین پوزیشن‌های سازمان** است و نقش مستقیم در:
+✅ **کاهش هزینه‌های نقدی شرکت**
+✅ **تأمین نیازهای استراتژیک سازمان** (از محصولات گرفته تا خدمات)
+✅ **مدیریت روابط با برندهای بزرگ کشور**
+
+دارد.
+
+───────────────────────
+
+💼 **مسئولیت‌های اصلی:**
+
+1️⃣ **مدیریت پورتفولیوی پارتنرها**
+   • حفظ و توسعه روابط با پارتنرهای فعال
+   • اولویت‌بندی بر اساس نیاز شرکت و اهمیت استراتژیک
+   • فعال‌سازی پارتنرهای کم‌تحرک
+
+2️⃣ **تأمین نیازهای شرکت از طریق تهاتر**
+   • شناسایی و جذب پارتنرهای جدید
+   • طراحی و اجرای پروژه‌های تهاتری
+   • مدیریت دو جریان: درخواست‌های شرکت + پیشنهادات proactive برندها
+
+3️⃣ **رهبری همکاری‌های تبلیغاتی**
+   • مشاوره تبلیغاتی به پارتنرها قبل و حین همکاری
+   • هدایت اجرای کمپین‌ها با همکاری تیم‌های داخلی (Account، Performance و...)
+   • اطمینان از موفقیت پارتنرها
+
+4️⃣ **مذاکره و قراردادنویسی**
+   • طراحی dealهای تهاتری (محصول/خدمت ⇄ تبلیغات)
+   • مدیریت تعهدات دوطرفه و reconciliation ماهانه
+   • همکاری با تیم حقوقی و مالی
+
+5️⃣ **رهبری تیم**
+   • مدیریت و coaching یک نفر Account Manager (با احتمال رشد تیم)
+   • ارتقای سطح دانش تیم در زمینه پارتنرشیپ و تبلیغات
+
+───────────────────────
+
+🧩 **چه کسانی می‌توانند درخواست دهند؟**
+
+اگر شما:
+✅ **5+ سال تجربه** در Partnerships، Strategic Accounts یا Key Account Management دارید
+✅ سابقه مدیریت **20+ پارتنر به‌صورت همزمان** را دارید
+✅ در **مذاکره و بستن dealهای کلان** توانمندید
+✅ به **تبلیغات دیجیتال** (CPC, CPM, ROAS, CTR) آشنایی دارید
+✅ می‌خواهید در یک نقش **استراتژیک و تأثیرگذار** رشد کنید
+
+این فرصت برای شماست! 🚀
+
+───────────────────────
+
+🌟 **مزایای این نقش:**
+
+🎯 **تأثیرگذاری مستقیم** روی سلامت مالی و استراتژی شرکت
+🤝 **تعامل با برندهای بزرگ** در صنایع مختلف
+📈 **مسیر رشد روشن** به سمت مدیریت ارشد
+🧠 **چالش‌های واقعی و متنوع** در یک محیط پویا
+💼 **مالکیت کامل** روی یکی از بزرگ‌ترین بخش‌های B2B شرکت
+
+───────────────────────
+
+⚠️ **چالش‌های 6 ماه اول:**
+
+برای شفافیت کامل، در دوره onboarding شما باید:
+1. خدمات یکتانت و زیرمجموعه‌ها را بشناسید
+2. با تیم‌های مرتبط (Sales، Marketing، Legal، Finance) همکاری نزدیک داشته باشید
+3. میزان سود و ارزش هر خدمت را درک کنید
+4. پارتنرهای فعلی و مدل‌های همکاری را مرور کنید
+5. مسیرهای قبل و بعد از تهاتر را به‌خوبی یاد بگیرید
+6. امتیازات و محدودیت‌های مذاکره را بشناسید
+
+───────────────────────
+
+📩 **نحوه درخواست:**
+
+اگر علاقه‌مندید یا کسی را می‌شناسید که fit باشد:
+
+👉 **رزومه + یک پاراگراف کوتاه** درباره تجربه‌تان در مدیریت پارتنرشیپ یا تهاتر را به **[ایمیل/تلگرام HR]** ارسال کنید.
+
+📧 موضوع: Partnerships Lead - Internal
+⏰ **ددلاین:** تا [تاریخ مشخص]
+
+───────────────────────
+
+**منتظر شنیدن داستان‌های موفقیت شما هستیم!** 💙
+
+تیم منابع انسانی یکتانت</div>
+            </div>
+            
+            <!-- Section 3: Executive Version -->
+            <div id="executive" class="section">
+                <div class="section-header">
+                    <div>
+                        <span class="badge executive">Executive</span>
+                        <span class="section-title">نسخه Executive (کاندیدهای سینیور)</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyContent('executive-content')">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                        کپی محتوا
+                    </button>
+                </div>
+                <div class="section-content" id="executive-content">Head of Partnerships | Yektanet
+
+**Senior Leadership Role | Strategic & High-Impact Position**
+
+───────────────────────
+
+🏢 About Yektanet
+
+Yektanet is Iran's leading digital advertising platform, serving **400+ team members** and managing one of the largest ad networks in the country. Since 2017, we've been transforming digital marketing through our ecosystem including Yektanet, Jariyan, Yeklink, Najva, and Adivery.
+
+We are looking for a **strategic partnership leader** to own and scale our **B2B barter partnerships portfolio** — currently valued at **₺70B+ annually**.
+
+───────────────────────
+
+🎯 The Role
+
+**Title:** Head of Partnerships / Partnerships Team Lead  
+**Reports to:** Chief Human Resources Officer (CHRO)  
+**Team Size:** 1 Account Manager (with growth potential)  
+**Location:** Tehran | On-site with flexible hours  
+**Timeline:** Immediate hire (within 1-3 months)
+
+───────────────────────
+
+📊 Scope & Impact
+
+• Manage **20+ active B2B partners** across diverse industries (FMCG, Tech, Fashion, Services, Fintech, Beauty, etc.)
+• Oversee **₺6B+ monthly barter volume** (₺70B+ annually)
+• Drive **cost reduction** through strategic product and service barter deals
+• Ensure **continuity and success** of large-scale partnerships
+• Lead **80%+ of partner advertising campaigns** end-to-end
+
+───────────────────────
+
+💼 Key Responsibilities
+
+**1. Portfolio Management**
+• Maintain and grow relationships with existing partners
+• Prioritize partners based on strategic value and company needs
+• Reactivate dormant partnerships and ensure satisfaction
+
+**2. Strategic Sourcing via Barter**
+• Identify and onboard partners aligned with company operational needs
+• Design and execute barter projects to replace cash expenses
+• Manage both inbound requests and proactive outreach
+
+**3. Partner Success & Campaign Leadership**
+• Provide strategic advertising consultation to partners
+• Manage campaign execution and ensure partner ROI
+• Demonstrate Yektanet's value proposition clearly
+
+**4. Deal Negotiation & Contracts**
+• Structure and negotiate complex barter deals (product/service ⇄ advertising)
+• Manage commitments, monthly reconciliations, and dispute resolution
+• Collaborate with Legal and Finance teams
+
+**5. Team Leadership**
+• Coach and develop Account Manager
+• Scale team capabilities in partnership management and digital advertising
+
+───────────────────────
+
+🎯 KPIs
+
+• Monthly barter volume retention (₺6B+)
+• Partner retention rate
+• Quality and ROI of advertising collaborations
+• Success rate of need-based barter projects
+• Partner satisfaction scores
+• Team performance
+
+───────────────────────
+
+🧩 Must-Have Qualifications
+
+• **5+ years** in Partnerships, Strategic Accounts, or Key Account Management
+• Proven ability to manage **20+ B2B accounts simultaneously**
+• Track record of negotiating **large, multi-layered deals**
+• **Hands-on knowledge of digital advertising** (CPC, CPM, CTR, ROAS)
+• Strong **relationship-building** and retention skills
+• Systematic mindset with **CRM proficiency**
+• **Intermediate English**
+
+───────────────────────
+
+✨ Nice-to-Have
+
+• Direct experience in **barter** (product or service exchange)
+• Background in advertising agencies or marketing-driven companies
+• **Team management experience** in Partnerships or Account roles
+
+───────────────────────
+
+⚠️ First 6 Months: Key Challenges
+
+To set realistic expectations, the onboarding period will focus on:
+
+1. Deep understanding of Yektanet's services and ecosystem
+2. Building relationships with cross-functional teams (Sales, Marketing, Legal, Finance)
+3. Learning profit margins and strategic value of each service
+4. Familiarizing with existing partners and collaboration models
+5. Mapping pre- and post-barter workflows
+6. Understanding negotiation leverage and constraints
+7. Defining clear boundaries and decision-making authority
+
+───────────────────────
+
+🌟 Why This Role Matters
+
+• **Direct impact** on company cash flow and operational efficiency
+• **Ownership** of one of the largest B2B revenue streams
+• **High visibility** with executive leadership and major brands
+• **Strategic influence** in company-wide decision-making
+• **Growth path** toward senior leadership (VP Partnerships, Head of BD, etc.)
+
+───────────────────────
+
+🚩 This Role is NOT a Fit If You:
+
+• Are purely a "hunter" without retention/farming skills
+• Lack experience managing large portfolios
+• Have limited understanding of digital advertising
+• Prefer short-term wins over long-term relationship building
+• Need heavy structure and micro-management
+
+───────────────────────
+
+📩 How to Apply
+
+If you're ready to take on one of the most strategic roles at Yektanet:
+
+📧 Send your **CV + a short paragraph** about your most successful partnership or barter deal to:  
+**[HR Email]**
+
+📌 Subject: **Head of Partnerships Application**
+
+───────────────────────
+
+📞 Next Steps
+
+• **Initial Screening:** HR call (30 min)
+• **Hiring Manager Interview:** CHRO + relevant stakeholders
+• **Case Discussion:** Real partnership scenario
+• **Final Interview:** Leadership team
+• **Offer & Onboarding**
+
+───────────────────────
+
+**We're looking for a leader who thinks strategically, builds lasting relationships, and thrives in high-impact, dynamic environments.**
+
+**Let's build the future of partnerships together.**
+
+───────────────────────
+
+**Yektanet | Digital Marketing Ecosystem**  
+📍 Tehran, Iran  
+🌐 www.yektanet.com</div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>Yektanet HR Team</strong></p>
+            <p>این مستند توسط تیم منابع انسانی یکتانت تهیه شده است</p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                برای هرگونه سوال یا پیشنهاد با تیم HR تماس بگیرید
+            </p>
+        </div>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">✓ محتوا کپی شد!</div>
+    
+    <script>
+        // Convert markdown bold syntax to HTML
+        function processMarkdownBold() {
+            const contentElements = ['linkedin-content', 'internal-content', 'executive-content'];
+            contentElements.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    // Get the original text content (which contains markdown syntax)
+                    const originalText = element.textContent || element.innerText;
+                    // Store original for copying (preserves markdown ** syntax)
+                    element.setAttribute('data-original', originalText);
+                    // Convert **text** to <strong>text</strong>
+                    // Use non-greedy matching to handle multiple bold sections on same line
+                    let htmlContent = originalText.replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>');
+                    // Convert newlines to <br> to preserve line breaks
+                    htmlContent = htmlContent.replace(/\n/g, '<br>');
+                    element.innerHTML = htmlContent;
+                }
+            });
+        }
+        
+        // Call on page load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', processMarkdownBold);
+        } else {
+            processMarkdownBold();
+        }
+        
+        // Copy to clipboard function
+        function copyContent(elementId) {
+            const element = document.getElementById(elementId);
+            // Use original markdown format if available (preserves ** for markdown)
+            let text = element.getAttribute('data-original');
+            if (!text) {
+                // Fallback: use textContent which will have the plain text
+                text = element.textContent || element.innerText;
+            }
+            
+            // Create temporary textarea
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            
+            // Select and copy
+            textarea.select();
+            document.execCommand('copy');
+            
+            // Remove textarea
+            document.body.removeChild(textarea);
+            
+            // Show toast notification
+            showToast();
+            
+            // Update button
+            const button = event.target.closest('.copy-btn');
+            const originalHTML = button.innerHTML;
+            button.classList.add('copied');
+            button.innerHTML = `
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                کپی شد!
+            `;
+            
+            setTimeout(() => {
+                button.classList.remove('copied');
+                button.innerHTML = originalHTML;
+            }, 2000);
+        }
+        
+        // Show toast notification
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Scroll to section
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            const offset = 20;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Add smooth scroll behavior for the whole page
+        document.documentElement.style.scrollBehavior = 'smooth';
+    </script>
+</body>
+</html>
