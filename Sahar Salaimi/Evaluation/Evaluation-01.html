@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گزارش ارزیابی کاندید - سحر سلیمی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;700;900&display=swap');
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        .gradient-border-red {
+            border-right: 6px solid #ef4444;
+        }
+
+        .score-bar {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #e2e8f0;
+            overflow: hidden;
+        }
+
+        .score-fill {
+            height: 100%;
+            transition: width 1s ease-in-out;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
+        .no-hire-badge {
+            background-color: #fee2e2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+
+        .quote-box {
+            border-right: 4px solid #94a3b8;
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-5xl mx-auto">
+        <!-- Header Section -->
+        <header class="card p-6 mb-8 border-t-8 border-red-600">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div class="flex items-center gap-4">
+                    <div class="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center text-3xl text-gray-500">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-black text-slate-800">سحر سلیمی</h1>
+                        <p class="text-slate-500 font-medium">پوزیشن: پارتنرشیپ</p>
+                        <div class="flex gap-2 mt-2">
+                            <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-600">تاریخ: ۱۴۰۴/۱۰/۱۶</span>
+                            <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-600">مصاحبه‌کنندگان: شجاعی، امامی</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-end gap-2">
+                    <div class="no-hire-badge px-6 py-2 rounded-full font-bold text-lg animate-pulse">
+                        🔴 نتیجه نهایی: No Hire
+                    </div>
+                    <p class="text-xs text-slate-400 italic">ریسک جذب: بسیار بالا</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <!-- Sidebar: Scores & Framework -->
+            <div class="lg:col-span-1 space-y-6">
+                <section class="card p-6">
+                    <h2 class="text-lg font-bold mb-6 flex items-center gap-2">
+                        <i class="fas fa-chart-bar text-blue-600"></i>
+                        ارزیابی بر اساس چارچوب
+                    </h2>
+                    
+                    <!-- Smartness -->
+                    <div class="mb-6">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-bold">هوشمندی (Smartness)</span>
+                            <span class="text-sm text-red-600 font-bold">۱/۱۰</span>
+                        </div>
+                        <div class="score-bar">
+                            <div class="score-fill bg-red-500" style="width: 10%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- High Agency -->
+                    <div class="mb-6">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-bold">عاملیت بالا (High Agency)</span>
+                            <span class="text-sm text-red-600 font-bold">۲/۱۰</span>
+                        </div>
+                        <div class="score-bar">
+                            <div class="score-fill bg-red-500" style="width: 20%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Growth Mindset -->
+                    <div class="mb-6">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-bold">ذهنیت رشد</span>
+                            <span class="text-sm text-red-600 font-bold">۲/۱۰</span>
+                        </div>
+                        <div class="score-bar">
+                            <div class="score-fill bg-red-500" style="width: 20%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Influence -->
+                    <div class="mb-6">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-bold">نفوذ و رهبری</span>
+                            <span class="text-sm text-amber-500 font-bold">۳/۱۰</span>
+                        </div>
+                        <div class="score-bar">
+                            <div class="score-fill bg-amber-500" style="width: 30%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 p-4 bg-red-50 rounded-lg text-sm text-red-800 leading-relaxed">
+                        <i class="fas fa-exclamation-triangle ml-1"></i>
+                        <strong>جمع‌بندی مدل:</strong> کاندید در دسته <strong>Misplaced</strong> قرار می‌گیرد. عدم تطابق جدی با ارشدیت مورد نیاز.
+                    </div>
+                </section>
+
+                <section class="card p-6 bg-slate-800 text-white">
+                    <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                        <i class="fas fa-quote-left text-blue-400"></i>
+                        نقل‌قول‌های کلیدی
+                    </h2>
+                    <div class="space-y-4 italic text-sm text-slate-300">
+                        <p class="pr-4 border-r-2 border-blue-400">«خیلی خوبم توش و تجربه تهاتر زیادی دارم.»</p>
+                        <p class="pr-4 border-r-2 border-blue-400">«تا الان فکر می‌کردم خیلی خفن هستم، ولی وقتی تو رو دیدم احساس ضعف کردم.»</p>
+                        <p class="pr-4 border-r-2 border-blue-400">«مدعی است فرد مشابه او به‌سختی پیدا می‌شود.»</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Main Content: Detailed Evaluation -->
+            <div class="lg:col-span-2 space-y-6">
+                
+                <!-- سوابق و مسیر شغلی -->
+                <section class="card p-6 gradient-border-red">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-history text-red-500"></i>
+                        سوابق و مسیر شغلی
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed text-sm mb-4">
+                        سیر شغلی از IT و شبکه به روابط عمومی و سپس پلتفرم‌های محتوایی و تبلیغاتی (نماشا، تپسل، یکتانت، ورزش ۳). 
+                        نکته منفی: پایان همکاری با تپسل به دلیل حواشی اخلاقی و رفتاری (صحبت پشت سر همکار).
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-100 text-xs rounded border border-slate-200">نماشا (۷ سال)</span>
+                        <span class="px-2 py-1 bg-slate-100 text-xs rounded border border-slate-200">تپسل (۶ ماه - اخراج/قطع همکاری)</span>
+                        <span class="px-2 py-1 bg-slate-100 text-xs rounded border border-slate-200">ورزش ۳ (۴ ماه)</span>
+                        <span class="px-2 py-1 bg-slate-100 text-xs rounded border border-slate-200">یکتانت</span>
+                    </div>
+                </section>
+
+                <!-- تجربه فروش و تهاتر -->
+                <section class="card p-6 gradient-border-red">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-handshake text-red-500"></i>
+                        تجربه کاری، فروش و تهاتر
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start gap-2">
+                            <i class="fas fa-times-circle text-red-500 mt-1"></i>
+                            <p class="text-sm text-slate-700"><strong>عدم شفافیت در فروش:</strong> علیرغم ادعای فروش ۲.۵ میلیاردی، مسیر بستن Dealها و نقش دقیق او کاملاً مبهم بود.</p>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <i class="fas fa-times-circle text-red-500 mt-1"></i>
+                            <p class="text-sm text-slate-700"><strong>تهاتر سطحی:</strong> هیچ نمونه واقعی از تهاتر صفر تا صد که خودش هدایت کرده باشد ارائه نداد (مثال‌های آپرک و تلوبیون بی‌نتیجه بودند).</p>
+                        </div>
+                        <div class="bg-amber-50 p-3 rounded text-sm text-amber-900 border-r-4 border-amber-400">
+                            ارزیابی: بیشتر نقش <strong>هماهنگ‌کننده</strong> را داشته تا یک <strong>مذاکره‌کننده فعال</strong>.
+                        </div>
+                    </div>
+                </section>
+
+                <!-- دانش فنی و ابزاری -->
+                <section class="card p-6 gradient-border-red">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-brain text-red-500"></i>
+                        دانش تخصصی و سیستماتیک
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 border rounded-lg border-slate-100">
+                            <h4 class="font-bold text-sm mb-2 text-slate-500">تبلیغات و مارکتینگ</h4>
+                            <p class="text-xs text-slate-600 italic">بسیار ضعیف. صرفاً نام بردن از پری‌رول بدون دانش فنی یا استراتژیک.</p>
+                        </div>
+                        <div class="p-4 border rounded-lg border-slate-100">
+                            <h4 class="font-bold text-sm mb-2 text-slate-500">CRM و مستندسازی</h4>
+                            <p class="text-xs text-slate-600 italic">فاقد دانش در شاخص‌های قابل رهگیری. مهارت مستندسازی ضعیف ارزیابی شد.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- رفتار حرفه‌ای و نگرش -->
+                <section class="card p-6 border-r-6 border-red-600 bg-red-50">
+                    <h3 class="text-xl font-bold mb-4 text-red-800 flex items-center gap-2">
+                        <i class="fas fa-exclamation-circle"></i>
+                        رفتار حرفه‌ای و نگرش (Critical)
+                    </h3>
+                    <ul class="space-y-2 text-sm text-red-900">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-clock w-4"></i> ۱۰ دقیقه تأخیر بدون عذرخواهی و بدون ابزار یادداشت‌برداری.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-comment-slash w-4"></i> <strong>بدگویی از مدیران قبلی:</strong> صحبت منفی درباره سالمی، افروغ و مدیر ورزش ۳.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-shield-alt w-4"></i> <strong>عدم مسئولیت‌پذیری:</strong> تمام چالش‌ها را متوجه دیگران می‌دانست و به ضعف‌های خود اشاره نکرد.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-bullhorn w-4"></i> <strong>اغراق کلامی:</strong> ادعاهای غیرحرفه‌ای درباره «خفن بودن» و بی‌رقیب بودن.
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- جمع‌بندی نهایی -->
+                <footer class="bg-white p-8 rounded-xl shadow-lg border-2 border-red-500 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 bg-red-500 text-white px-4 py-1 text-xs font-bold uppercase tracking-widest">Final Verdict</div>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-black text-red-600 mb-4">پیشنهاد نهایی: عدم استخدام (No Hire)</h3>
+                        <p class="text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                            با توجه به ضعف‌های جدی در <strong>مذاکره</strong>، <strong>شفافیت کلامی</strong>، <strong>بلوغ سازمانی</strong> و <strong>دانش تخصصی</strong>، جذب ایشان ریسک بالایی برای تیم پارتنرشیپ ایجاد می‌کند. کاندید فاقد عاملیت لازم برای مدیریت پروژه‌های پیچیده است.
+                        </p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // اضافه کردن افکت انیمیشن برای نوارهای امتیاز
+        window.addEventListener('load', () => {
+            const fills = document.querySelectorAll('.score-fill');
+            fills.forEach(fill => {
+                const width = fill.style.width;
+                fill.style.width = '0';
+                setTimeout(() => {
+                    fill.style.width = width;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
